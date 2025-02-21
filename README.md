@@ -1,6 +1,6 @@
-# 🚀 Proyecto Flask
+# 🚀 Desafío Backend Flask
 
-Bienvenido a **Desafío Backend Flask**, una aplicación web construida con el microframework Flask en Python. Este proyecto proporciona una estructura básica para desarrollar aplicaciones web modernas y escalables.
+Bienvenido a **Desafío Backend Flask**, un proyecto API REST en Flask con 4 endpoints para gestionar estaciones meteorológicas
 
 ## 📌 Requisitos
 
@@ -40,7 +40,7 @@ Por defecto, la aplicación se ejecutará en `http://127.0.0.1:5000/`.
 ## 📁 Estructura del Proyecto
 
 ```bash
-proyecto-flask/
+desafio_backend_flask/
 │── models/              # Modelos de datos
 │   │── weather_data.py  # Manejo de datos climáticos
 │   │── weather_station.py  # Información de estaciones meteorológicas
@@ -94,7 +94,7 @@ proyecto-flask/
 ### 📌 Eliminar una estación
 **DELETE** `http://127.0.0.1:5000/api/stations/<int:station_id>`
 
-## 📌 Desafío Backend Flask
+## 📌 Documentación extra en Notion
 
 Si quieres más detalles sobre este desafío, consulta el siguiente enlace en Notion:
 [Desafío Backend Flask](https://candy-cicada-fec.notion.site/Desaf-o-backend-Flask-19f4349a5252808faa32ceb1b8efd617)
